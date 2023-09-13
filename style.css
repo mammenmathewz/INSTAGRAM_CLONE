@@ -110,7 +110,7 @@ body{
     
 }
 .posts{
-    height: 750px;
+    height: 780px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -149,8 +149,14 @@ body{
     object-fit: contain;
     cursor: pointer;
 }
+.comment-input{
+    border: none;
+    font-size: 15px;
     
-
+}   
+.comment-input:focus {
+    outline: none;
+}
 
 
 
